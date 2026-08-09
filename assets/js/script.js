@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-
-    alert("JavaScript Loaded");
-
     /* ==========================
        Sticky Navbar
     ========================== */
@@ -348,4 +344,3 @@ filterProducts();
 window.addEventListener("hashchange", filterProducts);
 
 
-});
