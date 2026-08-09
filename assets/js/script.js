@@ -342,5 +342,3 @@ function filterProducts() {
 filterProducts();
 
 window.addEventListener("hashchange", filterProducts);
-
-
