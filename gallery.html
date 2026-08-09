@@ -2,85 +2,284 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/jpeg" href="assets/images/company/logo.jpeg">
+    <meta charset="UTF-8">
 
-<title>Gallery | K.S Enterprises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description"
-content="View company infrastructure and Ashwagandha Root product gallery of K.S Enterprises.">
+    <title>Gallery | K.S Enterprises</title>
 
-<meta name="author" content="K.S Enterprises">
-<meta name="robots" content="index, follow">
+    <meta name="description"
+        content="View company infrastructure and product gallery of K.S Enterprises.">
 
-<meta name="keywords"
-content="Ashwagandha Roots Exporter, Ashwagandha Supplier India, Herbal Products Exporter, K.S Enterprises, Ashwagandha Root Manufacturer">
+    <link rel="icon"
+        type="image/jpeg"
+        href="assets/images/company/logo.jpeg">
 
-<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"
+        href="assets/css/style.css">
+
+    <link rel="stylesheet"
+        href="assets/css/gallery.css">
 
 </head>
 
 <body>
 
-<section class="gallery-page">
+    <div id="navbar"></div>
+        <!-- =========================
+    GALLERY HERO
+    ========================== -->
 
-<h1>Company Gallery</h1>
+    <section class="gallery-hero">
 
-<p>
-Explore our company infrastructure and product collection.
-</p>
+        <div class="container">
 
-<div class="gallery-grid">
+            <span class="gallery-tag">
 
-<img src="assets/images/company/company-front.jpeg" alt="Company Front">
+                OUR COMPANY GALLERY
 
-<img src="assets/images/company/company-inside.jpeg" alt="Company Inside">
+            </span>
 
-<img src="assets/images/company/company-outside.jpeg" alt="Company Outside">
+        </div>
 
-<img src="assets/images/ashwagandha/ashwagandha-1.jpeg" alt="Ashwagandha">
+    </section>
 
-<img src="assets/images/ashwagandha/ashwagandha-2.jpeg" alt="Ashwagandha">
 
-<img src="assets/images/ashwagandha/ashwagandha-3.jpeg" alt="Ashwagandha">
+    <!-- =========================
+    COMPANY PHOTOS
+    ========================== -->
 
-<img src="assets/images/ashwagandha/ashwagandha-4.jpeg" alt="Ashwagandha">
+    <section class="gallery-section">
+
+        <div class="container">
+
+            
+
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+
+                    <img src="assets/images/company/company-front.jpeg"
+                        alt="Company Front">
+
+                </div>
+
+                <div class="gallery-card">
+
+                    <img src="assets/images/company/company-inside.jpeg"
+                        alt="Company Inside">
+
+                </div>
+
+                <div class="gallery-card">
+
+                    <img src="assets/images/company/company-outside.jpeg"
+                        alt="Company Outside">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- =========================
+    PRODUCT GALLERY
+    ========================== -->
+
+    <section class="gallery-section light-bg">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                
+
+                <h2> Our Products Gallery</h2>
+
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+
+    <img src="assets/images/products/ashwagandha-root/ashwagandha-root-1.webp"
+         alt="Ashwagandha Root">
 
 </div>
 
-</section>
+                <div class="gallery-card">
+
+    <img src="assets/images/products/ashwagandha-powder/ashwagandha-powder-1.webp"
+         alt="Ashwagandha Powder">
+
+</div>
+
+                <div class="gallery-card">
+
+    <img src="assets/images/products/jute-braided-rope/jute-braided-rope-1.webp"
+         alt="Jute Braided Rope">
+
+</div>
+
+                <div class="gallery-card">
+
+    <img src="assets/images/products/jute-mats/jute-mats-1.webp"
+         alt="Jute Mats">
+
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+        
+
+    <script>
+        fetch("components/navbar.html")
+            .then(response => response.text())
+            .then(data => {
+
+                document.getElementById("navbar").innerHTML = data;
+
+                const menuToggle = document.getElementById("menuToggle");
+                const navMenu = document.getElementById("navMenu");
+
+                if (menuToggle && navMenu) {
+
+                    menuToggle.addEventListener("click", function () {
+
+                        navMenu.classList.toggle("show");
+
+                    });
+
+                }
+
+            });
+
+    </script>
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 
 </html>
 
-<body>
+<!-- ==========================================
+FOOTER
+========================================== -->
 
+<footer class="footer">
 
-<div id="navbar"></div>
+<div class="container">
 
-<section class="products-page">
+<div class="footer-grid">
 
-</section>
+<!-- Company -->
 
-<div id="footer"></div>
+<div class="footer-col">
 
-<script src="assets/js/script.js"></script>
+<img src="assets/images/company/logo.jpeg"
+class="footer-logo"
+alt="K.S Enterprises">
 
-</body>
+<h3>K.S Enterprises</h3>
 
-<body>
+<p>
 
-<div id="navbar"></div>
+Trusted Exporter of Agricultural,
+Herbal & Jute Products from India.
 
-<section class="products-page">
+</p>
 
-</section>
+</div>
 
-<div id="footer"></div>
+<!-- Quick Links -->
 
-<script src="assets/js/script.js"></script>
+<div class="footer-col">
 
-</body>
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="certifications.html">Certificates</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<!-- Products -->
+
+<div class="footer-col">
+
+<h4>Our Products</h4>
+
+<ul>
+
+<li><a href="product/ashwagandha-root.html">Ashwagandha Roots</a></li>
+
+<li><a href="product/ashwagandha-powder.html">Ashwagandha Powder</a></li>
+
+<li><a href="product/raw-jute.html">Raw Jute</a></li>
+
+<li><a href="product/jute-braided-rope.html">Jute Rope</a></li>
+
+<li><a href="product/corn.html">Corn</a></li>
+
+<li><a href="product/wheat.html">Wheat</a></li>
+
+</ul>
+
+</div>
+
+<!-- Contact -->
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>📍 Murshidabad, West Bengal, India</p>
+
+<p>📞 +91 96479 72698</p>
+
+<p>📧 info@ksenterprisesexport.com</p>
+
+<a href="https://wa.me/919647972698"
+target="_blank"
+class="footer-whatsapp">
+
+WhatsApp Us
+
+</a>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 K.S Enterprises. All Rights Reserved.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>

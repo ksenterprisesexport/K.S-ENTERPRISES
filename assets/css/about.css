@@ -1,0 +1,686 @@
+/* ==========================================================
+   ABOUT PAGE - K.S ENTERPRISES
+========================================================== */
+
+.about-company,
+.our-story,
+.company-highlights,
+.mission-vision,
+.why-company {
+    padding: 70px 0;
+}
+
+.leadership{
+    padding: 20px 0 50px;
+}
+
+.about-company {
+    background: #fff;
+}
+.leadership .section-title{
+    margin-bottom: 15px !important;
+}
+
+.leadership .container{
+    padding-top: 0 !important;
+}
+
+.our-story,
+.why-company {
+    background: #f8fafc;
+}
+
+.leadership,
+.mission-vision {
+    background: #fff;
+}
+
+.company-highlights {
+    background: #f3f8f5;
+}
+
+.about-grid,
+.story-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-content .section-tag,
+.section-title span,
+.mv-box span {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    border-radius: 40px;
+}
+
+.about-content .section-tag {
+    background: #eaf7f1;
+    color: #0d8b52;
+    padding: 8px 18px;
+    margin-bottom: 20px;
+}
+
+.about-content h2,
+.section-title h2 {
+    color: #e8eeec;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    font-size: clamp(2.1rem, 3vw, 2.8rem);
+    max-width: 800px;
+}
+
+.about-content p,
+.story-content p,
+.mv-box p,
+.why-box p,
+.team-card p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.about-content p {
+    font-size: 1.06rem;
+    max-width: 900px;
+}
+
+.about-content strong,
+.story-content strong {
+    color: #0d8b52;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title span {
+    background: #eaf7f1;
+    color: #0d8b52;
+    padding: 8px 18px;
+    margin-bottom: 18px;
+    font-size: 0.8rem;
+}
+
+.section-title h2 {
+    font-size: clamp(1.9rem, 2.8vw, 2.6rem);
+}
+
+.story-content {
+    text-align: center;
+}
+
+.story-content p {
+    font-size: 1.06rem;
+    margin: 0;
+}
+
+.team-grid,
+.highlight-grid,
+.why-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.team-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 20px;
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    border-top: 4px solid #0d8b52;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.team-card:hover,
+.why-box:hover,
+.mv-box:hover {
+    transform: translateY(-6px);
+}
+
+.team-card h3 {
+    font-size: 1.45rem;
+    color: #12372A;
+    margin-bottom: 10px;
+}
+
+.team-card span {
+    display: inline-block;
+    color: #0d8b52;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.highlight-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.highlight-box {
+    background: #fff;
+    border: 1px solid rgba(18, 55, 42, 0.08);
+    border-radius: 18px;
+    padding: 30px 18px;
+    text-align: center;
+    color: #12372A;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+}
+
+.highlight-box h2 {
+    font-size: clamp(2rem, 3vw, 2.7rem);
+    color: #0d8b52;
+    margin-bottom: 10px;
+}
+
+.highlight-box p {
+    font-size: 1rem;
+    margin: 0;
+    color: #4a5a52;
+}
+
+.mv-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.mv-box {
+    background: #f8fafc;
+    border-radius: 20px;
+    padding: 36px 32px;
+    width: 100%;
+    transition: transform 0.35s ease;
+}
+
+.mv-box span {
+    background: #d4af37;
+    color: #12372A;
+    padding: 8px 18px;
+    margin-bottom: 18px;
+    font-size: 0.75rem;
+}
+
+.mv-box h3 {
+    color: #12372A;
+    margin-bottom: 16px;
+    font-size: 1.7rem;
+}
+
+.why-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 20px;
+}
+
+.why-box {
+    background: #fff;
+    border-radius: 18px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.why-icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: #0d8b52;
+    color: #44a34c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.9rem;
+}
+
+.why-box h3 {
+    color: #12372A;
+    margin-bottom: 12px;
+}
+
+.about-content,
+.about-grid {
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width:768px){
+
+    .team-card{
+        padding:12px 8px !important;
+    }
+
+    .team-card h3{
+        font-size:12px !important;
+        line-height:1.3;
+    }
+
+    .team-card span{
+        font-size:11px !important;
+    }
+
+    .team-card p{
+        font-size:10px !important;
+        line-height:1.4;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .about-company,
+    .our-story,
+    .leadership,
+    .company-highlights,
+    .mission-vision,
+    .why-company {
+        padding: 60px 0;
+    }
+
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-content p,
+    .story-content p {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        margin-bottom: 24px;
+    }
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-content p,
+    .story-content p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px){
+
+    .leadership-section .section-title h2{
+        font-size: 28px !important;
+        line-height: 1.2 !important;
+    }
+
+}
+/* STATS MOBILE FIX */
+@media (max-width: 768px){
+
+    .stats-grid{
+        display:grid !important;
+        grid-template-columns:repeat(2,1fr) !important;
+        gap:12px !important;
+    }
+
+    .stat-box{
+        min-height:120px !important;
+        padding:20px 10px !important;
+    }
+
+    .stat-box h3{
+        font-size:32px !important;
+        margin-bottom:10px !important;
+    }
+
+    .stat-box p{
+        font-size:14px !important;
+        line-height:1.4 !important;
+    }
+
+}
+/* HIGHLIGHT SECTION MOBILE */
+@media (max-width: 768px){
+
+    .highlight-grid{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
+    }
+
+    .highlight-box{
+        min-height: 110px !important;
+        padding: 20px 10px !important;
+    }
+
+    .highlight-box h2{
+        font-size: 28px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .highlight-box p{
+        font-size: 13px !important;
+        line-height: 1.3 !important;
+    }
+
+}
+/* HIGHLIGHTS SECTION BG REMOVE */
+
+.highlights-section{
+    background: transparent !important;
+    padding: 40px 0 !important;
+}
+
+.highlight-grid{
+    background: transparent !important;
+}
+
+.highlight-box{
+    background: #1f7a5a; 
+}
+/* MISSION & VISION MOBILE */
+
+@media (max-width:768px){
+
+    .mv-grid{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .mv-box{
+        padding:20px;
+    }
+
+    .mv-box h3{
+        font-size:20px;
+    }
+
+    .mv-box p{
+        font-size:13px;
+        line-height:1.6;
+    }
+
+}
+/* MISSION & VISION MOBILE 2 COLUMN */
+
+@media (max-width: 768px){
+
+    .mv-grid{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 10px !important;
+        align-items: stretch;
+    }
+
+    .mv-box{
+        padding: 12px !important;
+        min-height: auto !important;
+    }
+
+    .mv-box h3{
+        font-size: 18px !important;
+        margin: 8px 0 !important;
+    }
+
+    .mv-box p{
+        font-size: 11px !important;
+        line-height: 1.5 !important;
+    }
+
+}
+/* WHY CHOOSE US HEADING SMALL */
+
+.why-company h2,
+.why-title h2{
+    font-size: 24px !important;
+    line-height: 1.2;
+}
+/* WHY CHOOSE US MOBILE */
+
+@media (max-width:768px){
+
+    .why-company h2,
+    .why-title h2{
+        font-size: 18px !important;
+        line-height: 1.3;
+    }
+
+}
+@media (max-width:768px){
+
+    .why-grid{
+        display:grid !important;
+        grid-template-columns:1fr 1fr !important;
+        gap:12px !important;
+    }
+
+    .why-box{
+        padding:15px !important;
+    }
+
+    .why-box h3{
+        font-size:16px !important;
+    }
+
+    .why-box p{
+        font-size:12px !important;
+        line-height:1.5 !important;
+    }
+
+}
+/* LEADERSHIP 3 CARD SAME ROW MOBILE */
+
+@media (max-width:768px){
+
+    .team-grid{
+        display:grid !important;
+        grid-template-columns:repeat(3,1fr) !important;
+        gap:8px !important;
+    }
+
+    .team-card{
+        padding:10px 6px !important;
+        border-radius:12px !important;
+    }
+
+    .team-card h3{
+        font-size:11px !important;
+        line-height:1.2 !important;
+        margin-bottom:5px !important;
+    }
+
+    .team-card span{
+        font-size:10px !important;
+        display:block !important;
+        margin-bottom:6px !important;
+    }
+
+    .team-card p{
+        font-size:9px !important;
+        line-height:1.3 !important;
+        margin:0 !important;
+    }
+
+}
+/* ===== ABOUT SECTION MOBILE FIX ===== */
+
+.about-company{
+    padding-top: 30px !important;
+}
+
+.about-content{
+    padding-top: 15px !important;
+}
+
+.about-content .section-tag{
+    display: inline-block;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.about-content h2{
+    text-align: center;
+    line-height: 1.25;
+}
+
+.about-content p{
+    text-align: left !important;
+    line-height: 1.8;
+}
+
+@media (max-width:768px){
+
+    .about-company{
+        padding-top: 25px !important;
+    }
+
+    .about-content{
+        padding-top: 10px !important;
+    }
+
+    .about-content .section-tag{
+        margin-top: 15px !important;
+    }
+
+    .about-content h2{
+        font-size: 28px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .about-content p{
+        font-size: 15px !important;
+        text-align: left !important;
+        line-height: 1.8 !important;
+        padding: 0 5px;
+    }
+}
+@media (max-width:768px){
+
+    .about-content .section-tag{
+        margin-bottom: 20px !important;
+    }
+
+    .about-content h2{
+        margin-top: 10px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .about-content p{
+        margin-top: 20px !important;
+    }
+
+}
+/* WHO WE ARE TOP GAP */
+
+.about-company{
+    padding-top: 60px !important;
+}
+
+.about-content .section-tag{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+/* WHO WE ARE MOBILE FINAL FIX */
+
+.about-company{
+    padding-top: 90px !important;
+}
+
+.about-content .section-tag{
+    margin-bottom: 30px !important;
+}
+
+.about-content p{
+    text-align: center !important;
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+}
+
+@media (max-width:768px){
+
+    .about-company{
+        padding-top: 80px !important;
+    }
+
+    .about-content .section-tag{
+        margin-bottom: 10px !important;
+    }
+
+    .about-content p{
+        text-align: center !important;
+        font-size: 12px !important;
+        line-height: 1.8 !important;
+    }
+
+}
+/* FIX TEXT COLORS */
+
+/* Our Story & Why Global Buyers Heading */
+.section-title h2{
+    color: #12372A !important;
+}
+
+/* Highlight Box Numbers */
+.highlight-box h2{
+    color: #d4af37 !important; /* Gold */
+}
+
+/* Highlight Box Text */
+.highlight-box p{
+    color: #ffffff !important;
+}
+
+/* Highlight Box Background */
+.highlight-box{
+    background: #1f7a5a !important;
+}
+
+/* WHO WE ARE DESKTOP FIX */
+
+@media (min-width: 992px){
+
+    .about-content p,
+    .about-text p,
+    .who-we-are p{
+        max-width: 850px !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        line-height: 1.9 !important;
+    }
+
+}
+/* REMOVE GAP BETWEEN ABOUT SECTIONS */
+
+.about-section,
+.journey-section,
+.leadership-section,
+.why-choose-section{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.about-section{
+    padding-bottom: 30px !important;
+}
+
+.journey-section{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.leadership-section{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.why-choose-section{
+    padding-top: 30px !important;
+}

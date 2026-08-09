@@ -1,178 +1,737 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/about.css">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/jpeg" href="assets/images/company/logo.jpeg">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-<title>K.S Enterprises | Ashwagandha Roots Exporter From India</title>
+<meta http-equiv="X-UA-Compatible"
+      content="IE=edge">
+
+<title>
+K.S Enterprises | Premium Exporter From India
+</title>
 
 <meta name="description"
-content="K.S Enterprises is a trusted exporter and supplier of premium quality Ashwagandha Roots from India.">
+content="K.S Enterprises is a trusted exporter and supplier of premium Ashwagandha Roots, Herbal Products, Raw Jute, Jute Braided Rope, Jute Mats, Corn and Wheat from India.">
 
 <meta name="keywords"
-content="Ashwagandha Roots Exporter, Ashwagandha Supplier India, Herbal Products Exporter, K.S Enterprises, Ashwagandha Root Manufacturer">
+content="Ashwagandha Exporter India, Raw Jute Exporter, Jute Rope Supplier, Herbal Products Exporter, Corn Exporter India, Wheat Exporter">
 
-<meta name="author" content="K.S Enterprises">
-<meta name="robots" content="index, follow">
+<meta name="author"
+content="K.S Enterprises">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<meta name="robots"
+content="index,follow">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="theme-color"
+content="#0b3d2e">
+
+<link rel="icon"
+type="image/jpeg"
+href="assets/images/company/logo.jpeg">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="assets/css/style.css">
 
 </head>
 
+
 <body>
 
-<header>
+<!-- ===========================================
+HEADER
+=========================================== -->
 
-<nav class="navbar">
+<div id="navbar-container"></div>
 
-<div class="logo">
-    <img src="assets/images/company/logo.jpeg" alt="K.S Enterprises">
-
-    <div class="logo-text">
-        <h2>K.S Enterprises</h2>
-
-        <p class="company-tag">
-            📍West Bengal, India
-        </p>
-
-        <p class="company-tag">
-            GSTIN: 19HEJPM8267M1ZE
-        </p>
-    </div>
-</div>
-
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="products.html">Products</a></li>
-<li><a href="certifications.html">Certificates</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-<a href="https://wa.me/919647972698" class="quote-btn">
-Get Quote
-</a>
-
-</nav>
-
-</header>
+<!-- ===========================================
+HERO START
+=========================================== -->
 
 <section class="hero">
 
+<div class="hero-slider">
+
+<div class="slide slide1 active"></div>
+
+<div class="slide slide2"></div>
+
+<div class="slide slide3"></div>
+
+<div class="slide slide4"></div>
+
+<div class="slide slide5"></div>
+
+</div>
+
+<div class="hero-overlay"></div>
+
 <div class="hero-content">
 
-<h1>Premium Indian Products For Global Markets</h1>
 
-<p>
-Supplying and Exporting Quality Agricultural, Herbal, Industrial and General Products From India To Buyers Across The Globe.
+<h1 id="heroTitle">
+
+Premium Ashwagandha Roots
+
+</h1>
+
+<p id="heroDescription">
+
+High Quality Herbal Products Exported Worldwide with
+Reliable Documentation, Competitive Pricing and
+Timely Delivery.
+
 </p>
 
-<h3>Trust Once. Value Delivered Forever.</h3>
+<div class="hero-buttons">
 
-<a href="contact.html" class="btn">
-Contact Us
-</a>
+
+
+
+</div>
+
+</div>
+
+<div class="scroll-down">
+
+<span></span>
+
+</div>
+
+<!-- ===========================
+      HERO CONTROLS
+============================ -->
+
+<div class="hero-controls">
+
+<button
+class="hero-prev"
+id="heroPrev">
+
+&#10094;
+
+</button>
+
+<div class="hero-dots">
+
+<span
+class="dot active"
+data-slide="0">
+
+</span>
+
+<span
+class="dot"
+data-slide="1">
+
+</span>
+
+<span
+class="dot"
+data-slide="2">
+
+</span>
+
+<span
+class="dot"
+data-slide="3">
+
+</span>
+
+<span
+class="dot"
+data-slide="4">
+
+</span>
+
+</div>
+
+<button
+class="hero-next"
+id="heroNext">
+
+&#10095;
+
+</button>
 
 </div>
 
 </section>
+
+<!-- ===========================================
+ABOUT SECTION
+=========================================== -->
 
 <section class="about-preview">
 
-<h2>About K.S Enterprises</h2>
+<div class="container">
+
+<div class="section-title">
+
+<span>ABOUT US</span>
+
+
+
+</div>
+
+<div class="about-grid">
+
+<div class="about-text">
 
 <p>
 
-K.S Enterprises is a trusted manufacturer and exporter of premium-quality herbal and jute products based in Murshidabad, West Bengal, India. Our flagship product is Ashwagandha Root, sourced from renowned cultivation regions of Maharashtra and Rajasthan, including the highly valued Nagori Ashwagandha, which is widely recognized as one of India's finest quality Ashwagandha varieties.
+K.S Enterprises is a trusted manufacturer and exporter based in Murshidabad, West Bengal, India. We specialize in supplying Premium Ashwagandha Roots, Ashwagandha Powder, Raw Jute, Jute Braided Rope, Jute Mats, Corn and Wheat. Products to buyers across domestic and international markets.
 
 </p>
+
+
+
+<a href="about.html" class="btn">
+
+Read More
+</a>
 
 </section>
 
-<section class="products-preview">
+<!-- ==========================================
+OUR ACHIEVEMENTS
+========================================== -->
 
-<h2>Our Core Product</h2>
+<section class="stats-section">
 
-<div class="product-card">
+<div class="container">
 
-<img src="assets/images/ashwagandha/ashwagandha-1.jpeg">
+<div class="stats-grid">
 
-<h3>Ashwagandha Roots</h3>
+<div class="stat-item">
 
-<p>
+<h2 class="counter" data-target="16">16+</h2>
 
-sourced from renowned cultivation regions of Maharashtra and Rajasthan, including the highly valued Nagori Ashwagandha, which is widely recognized as one of India's finest quality Ashwagandha varieties.
-</p>
+<h4>Products</h4>
+
+<p>Premium Quality</p>
+
+</div>
+
+<div class="stat-item">
+
+<h2 class="counter" data-target="100">100%</h2>
+
+<h4>Quality</h4>
+
+<p>Assurance</p>
+
+</div>
+
+<div class="stat-item">
+
+<h2 class="counter" data-target="24">24×7</h2>
+
+<h4>Customer</h4>
+
+<p>Support</p>
+
+</div>
+
+<div class="stat-item">
+
+<h2 class="counter" data-target="150">150+</h2>
+
+<h4>Customers</h4>
+
+<p>Worldwide</p>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
+
+<!-- ==========================================
+EXPORT PROCESS
+========================================== -->
+
+<section class="export-process">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>HOW WE WORK</span>
+
+<h2>Simple Export Process</h2>
+
+<p>
+From inquiry to delivery, we ensure a smooth,
+transparent and reliable export experience.
+</p>
+
+</div>
+
+<div class="process-wrapper">
+
+    <!-- Row 1 -->
+    <div class="process-row">
+
+        <div class="process-card">
+            <div class="step">1</div>
+            <h3>Inquiry</h3>
+            <p>Share your product requirements.</p>
+        </div>
+
+        <div class="process-card">
+            <div class="step">2</div>
+            <h3>Quotation</h3>
+            <p>Receive pricing and specifications.</p>
+        </div>
+
+    </div>
+
+    <!-- Row 2 -->
+    <div class="process-row">
+
+        <div class="process-card">
+            <div class="step">3</div>
+            <h3>Quality Check</h3>
+            <p>Products are carefully inspected.</p>
+        </div>
+
+        <div class="process-card">
+            <div class="step">4</div>
+            <h3>Packaging</h3>
+            <p>Safe export-grade packaging.</p>
+        </div>
+
+    </div>
+
+    <!-- Row 3 -->
+    <div class="process-row">
+
+        <div class="process-card">
+            <div class="step">5</div>
+            <h3>Shipping</h3>
+            <p>Worldwide logistics support.</p>
+        </div>
+
+        <div class="process-card">
+            <div class="step">6</div>
+            <h3>Delivery</h3>
+            <p>On-time delivery with documents.</p>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ==========================================
+WHY CHOOSE US
+========================================== -->
 
 <section class="trust-section">
 
-<h2>Why Buyers Trust K.S Enterprises</h2>
+<div class="container">
 
-<div class="trust-grid">
+<div class="section-title">
 
-<div class="box">
-<h3>GST Registered</h3>
-<p>Legally Registered Business Entity</p>
-</div>
+<span>WHY CHOOSE US</span>
 
-<div class="box">
-<h3>IEC Certified</h3>
-<p>Authorized For International Trade</p>
-</div>
+<h2>Why Global Buyers Choose K.S Enterprises</h2>
 
-<div class="box">
-<h3>Quality Assurance</h3>
-<p>Every Product Checked Before Supply</p>
-</div>
+<p>
 
-<div class="box">
-<h3>Reliable Export Support</h3>
-<p>Professional Documentation & Logistics</p>
-</div>
-
-</div>
-
-</section>
-
+We are committed to delivering premium products with
+reliable service, transparent business practices and
+complete export support for buyers worldwide.
 
 </p>
 
-</footer>
-<a href="tel:+918927436680"
-class="call-float">
+</div>
 
-📞 Call Now
+<div class="trust-grid">
 
-</a>
+<!-- 1 -->
 
-<a href="https://wa.me/919647972698"
-class="whatsapp-float"
-target="_blank">
+<div class="box">
 
-WhatsApp
+<div class="trust-icon">🌿</div>
 
-</a>
+<h3>Premium Quality</h3>
 
-</body>
-</html>
+<p>
 
-<div id="navbar"></div>
+Every product is carefully sourced, inspected and packed
+to maintain consistent quality before shipment.
 
-<section class="products-page">
+</p>
+
+</div>
+
+<!-- 2 -->
+
+<div class="box">
+
+<div class="trust-icon">📦</div>
+
+<h3>Export-Grade Packaging</h3>
+
+<p>
+
+Strong and secure packaging protects products during
+international transportation and storage.
+
+</p>
+
+</div>
+
+<!-- 3 -->
+
+<div class="box">
+
+<div class="trust-icon">🚢</div>
+
+<h3>Reliable Logistics</h3>
+
+<p>
+
+Timely dispatch with complete export documentation
+and dependable worldwide shipping support.
+
+</p>
+
+</div>
+
+<!-- 4 -->
+
+<div class="box">
+
+<div class="trust-icon">💰</div>
+
+<h3>Competitive Pricing</h3>
+
+<p>
+
+Fair pricing with transparent quotations that deliver
+excellent value for global buyers.
+
+</p>
+
+</div>
+
+<!-- 5 -->
+
+<div class="box">
+
+<div class="trust-icon">🤝</div>
+
+<h3>Trusted Partnership</h3>
+
+<p>
+
+Building long-term business relationships through
+honesty, reliability and professional communication.
+
+</p>
+
+</div>
+
+<!-- 6 -->
+
+<div class="box">
+
+<div class="trust-icon">💬</div>
+
+<h3>Responsive Support</h3>
+
+<p>
+
+Quick assistance from inquiry to final delivery,
+ensuring a smooth customer experience.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
-<div id="footer"></div>
+
+<!-- ==========================================
+CERTIFICATE SLIDER
+========================================== -->
+
+<section class="certificate-slider-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>CERTIFICATIONS</span>
+
+<h2>Government Registered & Certified Business</h2>
+
+<p>
+
+Committed to quality, compliance and trusted export practices.
+
+</p>
+
+</div>
+
+<div class="swiper certificateSwiper">
+
+<div class="swiper-wrapper">
+
+<!-- ISO -->
+
+<div class="swiper-slide">
+
+<a href="certifications.html" class="certificate-item">
+
+<img src="assets/images/certificate-logos/iso-logo.png" alt="ISO">
+
+<h3>ISO 9001:2015</h3>
+
+<p>Quality Management</p>
+
+</a>
+
+</div>
+
+<!-- GST -->
+
+<div class="swiper-slide">
+
+<a href="certifications.html" class="certificate-item">
+
+<img src="assets/images/certificate-logos/gst-logo.png" alt="GST">
+
+<h3>GST Registered</h3>
+
+<p>Government of India</p>
+
+</a>
+
+</div>
+
+<!-- IEC -->
+
+<div class="swiper-slide">
+
+<a href="certifications.html" class="certificate-item">
+
+<img src="assets/images/certificate-logos/iec-logo.png" alt="IEC">
+
+<h3>IEC Certified</h3>
+
+<p>Import Export Code</p>
+
+</a>
+
+</div>
+
+<!-- UDYAM -->
+
+<div class="swiper-slide">
+
+<a href="certifications.html" class="certificate-item">
+
+<img src="assets/images/certificate-logos/udyam-logo.png" alt="UDYAM">
+
+<h3>UDYAM</h3>
+
+<p>MSME Registration</p>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="swiper-button-next"></div>
+
+<div class="swiper-button-prev"></div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+fetch("components/navbar.html")
+.then(response => response.text())
+.then(data => {
+
+    document.getElementById("navbar-container").innerHTML = data;
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    if(menuToggle && navMenu){
+
+        menuToggle.addEventListener("click", function(){
+
+            navMenu.classList.toggle("show");
+
+        });
+
+    }
+
+});
+</script>
 
 <script src="assets/js/script.js"></script>
 
 </body>
+</html>
+
+
+<!-- ==========================================
+FOOTER
+========================================== -->
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="footer-grid">
+
+<!-- Company -->
+
+<div class="footer-col">
+
+<img src="assets/images/company/logo.jpeg"
+class="footer-logo"
+alt="K.S Enterprises">
+
+<h3>K.S Enterprises</h3>
+
+<p>
+
+Trusted Exporter of Agricultural,
+Herbal & Jute Products from India.
+
+</p>
+
+</div>
+
+<!-- Quick Links -->
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="certifications.html">Certificates</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<!-- Products -->
+
+<div class="footer-col">
+
+<h4>Our Products</h4>
+
+<ul>
+
+<li><a href="product/ashwagandha-root.html">Ashwagandha Roots</a></li>
+
+<li><a href="product/ashwagandha-powder.html">Ashwagandha Powder</a></li>
+
+<li><a href="product/raw-jute.html">Raw Jute</a></li>
+
+<li><a href="product/jute-braided-rope.html">Jute Rope</a></li>
+
+<li><a href="product/corn.html">Corn</a></li>
+
+<li><a href="product/wheat.html">Wheat</a></li>
+
+</ul>
+
+</div>
+
+<!-- Contact -->
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>📍 Murshidabad, West Bengal, India</p>
+
+<p>📞 +91 96479 72698</p>
+
+<p>📧 info@ksenterprisesexport.com</p>
+
+<a href="https://wa.me/919647972698"
+target="_blank"
+class="footer-whatsapp">
+
+WhatsApp Us
+
+</a>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 K.S Enterprises. All Rights Reserved.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+

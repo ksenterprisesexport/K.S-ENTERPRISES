@@ -2,67 +2,409 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="icon" type="image/jpeg" href="assets/images/company/logo.jpeg">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-<title>Certifications | K.S Enterprises</title>
+<title>
+Government Certifications | K.S Enterprises
+</title>
 
 <meta name="description"
-content="View GST, IEC and UDYAM certifications of K.S Enterprises.">
-
-<meta name="author" content="K.S Enterprises">
-<meta name="robots" content="index, follow">
+content="View Government Registered Certifications of K.S Enterprises including ISO, GST, IEC and Udyam Registration.">
 
 <meta name="keywords"
-content="Ashwagandha Roots Exporter, Ashwagandha Supplier India, Herbal Products Exporter, K.S Enterprises, Ashwagandha Root Manufacturer">
+content="ISO Certificate, GST Certificate, IEC Certificate, Udyam Registration, K.S Enterprises">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<meta name="author"
+content="K.S Enterprises">
+
+<meta name="robots"
+content="index,follow">
+
+<link rel="icon"
+type="image/jpeg"
+href="assets/images/company/logo.jpeg">
+
+<link rel="stylesheet"
+href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
 </head>
+
+<script>
+fetch("components/navbar.html")
+.then(response => response.text())
+.then(data => {
+
+    document.getElementById("navbar-container").innerHTML = data;
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    if(menuToggle && navMenu){
+
+        menuToggle.addEventListener("click", function(){
+
+            navMenu.classList.toggle("show");
+
+        });
+
+    }
+
+});
+</script>
 
 <body>
 
-<section class="certificate-section">
+<!-- ===========================
+        HEADER
+============================ -->
 
-<h1>Business Certifications</h1>
+<div id="navbar-container"></div>
+
+
+<!-- ===========================================
+     CERTIFICATE SECTION
+=========================================== -->
+
+<section class="certifications-home">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>OUR CERTIFICATIONS</span>
+
+<h2>Government Registered & Certified Business</h2>
 
 <p>
-K.S Enterprises is a legally registered business with all required certifications for domestic and international trade.
+
+K.S Enterprises follows recognized quality standards and
+operates with all essential registrations required for
+domestic and international trade.
+
 </p>
+
+</div>
 
 <div class="certificate-grid">
 
-<div class="certificate-card">
-<img src="assets/images/certificates/gst-certificate.jpeg">
-<h3>GST Registration Certificate</h3>
-</div>
+<!-- ISO -->
 
 <div class="certificate-card">
-<img src="assets/images/certificates/iec-certificate.jpeg">
+
+<img
+src="assets/images/certificates/iso.webp"
+alt="ISO 9001:2015 Certificate">
+
+<h3>ISO 9001:2015</h3>
+
+<p>
+
+International Quality Management System Certification,
+demonstrating our commitment to consistent quality and
+customer satisfaction.
+
+</p>
+
+<a
+href="assets/images/certificates/iso.webp"
+target="_blank"
+class="btn">
+
+View Certificate
+
+</a>
+
+</div>
+
+<!-- GST -->
+
+<div class="certificate-card">
+
+<img
+src="assets/images/certificates/gst.webp"
+alt="GST Registration">
+
+<h3>GST Registration</h3>
+
+<p>
+
+Official Goods and Services Tax Registration issued by the
+Government of India for legal business operations.
+
+</p>
+
+<a
+href="assets/images/certificates/gst.webp"
+target="_blank"
+class="btn">
+
+View Certificate
+
+</a>
+
+</div>
+
+<!-- IEC -->
+
+<div class="certificate-card">
+
+<img
+src="assets/images/certificates/iec.webp"
+alt="Import Export Code">
+
 <h3>Import Export Code (IEC)</h3>
+
+<p>
+
+Import Export Code issued by DGFT, enabling international
+trade and export activities.
+
+</p>
+
+<a
+href="assets/images/certificates/iec.webp"
+target="_blank"
+class="btn">
+
+View Certificate
+
+</a>
+
 </div>
+
+<!-- UDYAM -->
 
 <div class="certificate-card">
-<img src="assets/images/certificates/udyam-certificate.jpeg">
-<h3>Udyam Registration Certificate</h3>
+
+<img
+src="assets/images/certificates/udhyam.webp"
+alt="Udyam Registration">
+
+<h3>Udyam Registration</h3>
+
+<p>
+
+Government-recognized MSME registration supporting
+business credibility and sustainable growth.
+
+</p>
+
+<a
+href="assets/images/certificates/udhyam.webp"
+target="_blank"
+class="btn">
+
+View Certificate
+
+</a>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
 
-</body>
-</html>
 
-<div id="navbar"></div>
 
-<section class="products-page">
+<!-- ===========================================
+ WHY OUR CERTIFICATIONS MATTER
+=========================================== -->
+
+<section class="trust-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>WHY IT MATTERS</span>
+
+<h2>Why Buyers Can Trust Us</h2>
+
+</div>
+
+<div class="trust-grid">
+
+<div class="box">
+
+<h3>Legally Registered</h3>
+
+<p>
+
+Operating under Government-approved registrations and
+compliance standards.
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Export Ready</h3>
+
+<p>
+
+Licensed for international business with complete export
+documentation support.
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Quality Focused</h3>
+
+<p>
+
+Committed to maintaining quality standards in every order.
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Reliable Business Partner</h3>
+
+<p>
+
+Building long-term relationships through trust,
+transparency and timely delivery.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
-<div id="footer"></div>
+<!-- ==========================================
+FOOTER
+========================================== -->
 
-<script src="assets/js/script.js"></script>
+<footer class="footer">
 
-</body>
+<div class="container">
+
+<div class="footer-grid">
+
+<!-- Company -->
+
+<div class="footer-col">
+
+<img src="assets/images/company/logo.jpeg"
+class="footer-logo"
+alt="K.S Enterprises">
+
+<h3>K.S Enterprises</h3>
+
+<p>
+
+Trusted Exporter of Agricultural,
+Herbal & Jute Products from India.
+
+</p>
+
+</div>
+
+<!-- Quick Links -->
+
+<div class="footer-col">
+
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="certifications.html">Certificates</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<!-- Products -->
+
+<div class="footer-col">
+
+<h4>Our Products</h4>
+
+<ul>
+
+<li><a href="product/ashwagandha-root.html">Ashwagandha Roots</a></li>
+
+<li><a href="product/ashwagandha-powder.html">Ashwagandha Powder</a></li>
+
+<li><a href="product/raw-jute.html">Raw Jute</a></li>
+
+<li><a href="product/jute-braided-rope.html">Jute Rope</a></li>
+
+<li><a href="product/corn.html">Corn</a></li>
+
+<li><a href="product/wheat.html">Wheat</a></li>
+
+</ul>
+
+</div>
+
+<!-- Contact -->
+
+<div class="footer-col">
+
+<h4>Contact</h4>
+
+<p>📍 Murshidabad, West Bengal, India</p>
+
+<p>📞 +91 96479 72698</p>
+
+<p>📧 info@ksenterprisesexport.com</p>
+
+<a href="https://wa.me/919647972698"
+target="_blank"
+class="footer-whatsapp">
+
+WhatsApp Us
+
+</a>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 K.S Enterprises. All Rights Reserved.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+
